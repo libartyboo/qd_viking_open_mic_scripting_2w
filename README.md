@@ -1,1 +1,1 @@
-### QD-Viking Open Mic: ["Один Клик или Практическое скриптование"](https://www.google.com)
+### QD-Viking Open Mic: ["Один Клик или Практическое скриптование"](https://www.canva.com/design/DAE-gKedP0I/JPd_hdo_DXR9VGL1g_ovSw/view?utm_content=DAE-gKedP0I&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton#1)
