@@ -1,0 +1,109 @@
+{'row': 21851, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21852, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21853, 'errors': ValidationError({'authors': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21854, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21855, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21856, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21857, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21858, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21859, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21860, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21861, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21862, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21863, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21864, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21865, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21866, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21868, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21867, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21869, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21870, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21871, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21872, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21873, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')], 'authors': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21874, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21875, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21876, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21877, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21878, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21879, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21880, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21881, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')], 'authors': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21882, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')], 'authors': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21883, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21884, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21885, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21886, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21887, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21888, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21889, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21890, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21891, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21892, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21893, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21894, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21895, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21896, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21897, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21898, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 21899, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 22069, 'errors': ValidationError({'non_field_errors': [{}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {}, {'family_name': [ErrorDetail(string='This field is required.', code='required')]}]},)}
+{'row': 22469, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')], 'authors': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 22473, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')], 'authors': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 22481, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22484, 'errors': ValidationError({'authors': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 22485, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')], 'authors': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 22486, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')], 'authors': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 22487, 'errors': ValidationError({'publish_time': [ErrorDetail(string='This field may not be blank.', code='blank')], 'authors': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 22488, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22505, 'errors': DataError('value too long for type character varying(200)\n',)}
+{'row': 22513, 'errors': ValidationError({'authors': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 22516, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22521, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22528, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22540, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22543, 'errors': ValidationError({'authors': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 22549, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22573, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22579, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22581, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22603, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22610, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22616, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22624, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22628, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22634, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22644, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22651, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22665, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22673, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22686, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22698, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22706, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22712, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22713, 'errors': ValidationError({'authors': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 22714, 'errors': DataError('value too long for type character varying(200)\n',)}
+{'row': 22715, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22719, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22723, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22726, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22731, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22735, 'errors': ValidationError({'authors': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 22736, 'errors': ValidationError({'authors': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 22739, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22741, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22748, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22753, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22756, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22757, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22762, 'errors': DataError('value too long for type character varying(200)\n',)}
+{'row': 22769, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22773, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22780, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22783, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22789, 'errors': ValidationError({'authors': [ErrorDetail(string='This field may not be blank.', code='blank')]},)}
+{'row': 22797, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22803, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22806, 'errors': DataError('value too long for type character varying(256)\n',)}
+{'row': 22814, 'errors': DataError('value too long for type character varying(200)\n',)}
+{'row': 22825, 'errors': DataError('value too long for type character varying(200)\n',)}

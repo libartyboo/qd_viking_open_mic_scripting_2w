@@ -1,0 +1,164 @@
+{
+	"info": {
+		"_postman_id": "b0be7e3c-dc9b-41d8-9704-b075b1bea7de",
+		"name": "RestCountries_4_nm",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get_all_countries",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"let currentRequest = \"get_all_countries\"\r",
+							"let nextRequest = \"get_countries_by_language\"\r",
+							"pm.environment.set(\"currentRequest\", currentRequest)\r",
+							"pm.environment.set(\"nextRequest\", nextRequest)"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.com/v3.1/all",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"com"
+					],
+					"path": [
+						"v3.1",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get_countries_by_language",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"let currentRequest = \"get_countries_by_language\"\r",
+							"let nextRequest = \"\"\r",
+							"pm.environment.set(\"currentRequest\", currentRequest);\r",
+							"pm.environment.set(\"nextRequest\", nextRequest);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://restcountries.com/v3.1/lang/{{lang}}",
+					"protocol": "https",
+					"host": [
+						"restcountries",
+						"com"
+					],
+					"path": [
+						"v3.1",
+						"lang",
+						"{{lang}}"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"if (pm.variables.get(\"languages_list\")) {",
+					"    let lang_number = +environment[\"lang_number\"]",
+					"    pm.environment.set(\"lang\", pm.variables.get(\"languages_list\")[lang_number])",
+					"}"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"////////////////////////////////////////////////////////",
+					"pm.test(\"Status code is 200\", function () {",
+					"    pm.response.to.have.status(200);",
+					"});",
+					"////////////////////////////////////////////////////////",
+					"let currentRequest = pm.variables.get(\"currentRequest\")",
+					"let nextRequest = pm.variables.get(\"nextRequest\")",
+					"////////////////////////////////////////////////////////",
+					"if (currentRequest == \"get_all_countries\") {",
+					"    if (pm.response.code == 200) {",
+					"        let jsonData = JSON.parse(responseBody)",
+					"        let languages_list = []",
+					"        let i = 0",
+					"",
+					"        do {",
+					"            country_lang = jsonData[i].languages",
+					"            for (let lang in country_lang) {",
+					"                if(languages_list.indexOf(lang) == -1)",
+					"                languages_list.add(lang)",
+					"            }",
+					"            i += 1 ",
+					"        } while (jsonData.length != i)",
+					"        ",
+					"        pm.environment.set(\"languages_list\", languages_list)",
+					"        pm.environment.set(\"lang_count\", languages_list.length)",
+					"        pm.environment.set(\"lang_number\", 0);",
+					"        postman.setNextRequest(nextRequest);",
+					"    } else if (pm.response.code !== 200) { ",
+					"       postman.setNextRequest(null);",
+					"    }",
+					"} else {",
+					"    let lang_number = +environment[\"lang_number\"] ",
+					"    let lang_count = +environment[\"lang_count\"]",
+					"    if (pm.response.code == 200) {",
+					"        if (lang_number < 10){",
+					"            let jsonData = JSON.parse(responseBody);",
+					"            console.log(jsonData.length);",
+					"            lang_number++",
+					"            pm.environment.set(\"lang_number\", lang_number);",
+					"            postman.setNextRequest(currentRequest);",
+					"        } else {",
+					"            pm.environment.set(\"lang_number\", 0);",
+					"            postman.setNextRequest(nextRequest);",
+					"        }",
+					"    } else if (pm.response.code !== 200) {",
+					"        if (lang_number < lang_count) { ",
+					"            lang_number++",
+					"            pm.environment.set(\"lang_number\", lang_number);",
+					"            postman.setNextRequest(currentRequest);",
+					"        } else {",
+					"            pm.environment.set(\"lang_number\", 0);",
+					"            postman.setNextRequest(nextRequest);",
+					"        }    ",
+					"    }",
+					"}"
+				]
+			}
+		}
+	]
+}

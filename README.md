@@ -1,0 +1,1 @@
+### QD-Viking Open Mic: ["Один Клик или Практическое скриптование"](https://www.google.com)

@@ -1,0 +1,175 @@
+{
+	"info": {
+		"_postman_id": "982069dc-109e-4837-aac3-90b6e6a652cf",
+		"name": "HttpbinorgPost",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "order_1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "custname",
+							"value": "Robert123",
+							"type": "text"
+						},
+						{
+							"key": "custtel",
+							"value": "123-456-789",
+							"type": "text"
+						},
+						{
+							"key": "custemail",
+							"value": "test@test.ts1",
+							"type": "text"
+						},
+						{
+							"key": "size",
+							"value": "small",
+							"type": "text"
+						},
+						{
+							"key": "topping",
+							"value": "becon",
+							"type": "text"
+						},
+						{
+							"key": "delivery",
+							"value": "11:30",
+							"type": "text"
+						},
+						{
+							"key": "comments",
+							"value": "text text text text1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://httpbin.org/post",
+					"protocol": "http",
+					"host": [
+						"httpbin",
+						"org"
+					],
+					"path": [
+						"post"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "order_2",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"let chars = 'abcdefghijklmnopqrstuvwxyz1234567890';\r",
+							"let text = '';\r",
+							"for(var ii=0; ii<15; ii++){\r",
+							"    text += chars[Math.floor(Math.random() * chars.length)];\r",
+							"}\r",
+							"\r",
+							"pm.environment.set(\"email\", text + '@gmail.com')"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "custname",
+							"value": "{{custname}}",
+							"type": "text"
+						},
+						{
+							"key": "custtel",
+							"value": "123-456-789",
+							"type": "text"
+						},
+						{
+							"key": "custemail",
+							"value": "{{email}}",
+							"type": "text"
+						},
+						{
+							"key": "size",
+							"value": "small",
+							"type": "text"
+						},
+						{
+							"key": "topping",
+							"value": "becon",
+							"type": "text"
+						},
+						{
+							"key": "delivery",
+							"value": "11:30",
+							"type": "text"
+						},
+						{
+							"key": "comments",
+							"value": "{{comments}}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://httpbin.org/post",
+					"protocol": "http",
+					"host": [
+						"httpbin",
+						"org"
+					],
+					"path": [
+						"post"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"function makerandom() {",
+					"  var text = \"\";",
+					"  var possible = \"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789\";",
+					"",
+					"  for (var i = 0; i < 5; i++)",
+					"    text += possible.charAt(Math.floor(Math.random() * possible.length));",
+					"",
+					"  return text;",
+					"}",
+					"",
+					"pm.environment.set(\"custname\", makerandom())",
+					"pm.environment.set(\"comments\", makerandom())"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
